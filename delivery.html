@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Foodie - Delivery Address</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: burlywood;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .address-box {
+         border-radius: 80px;
+       border-style: solid;
+        padding: 50px;
+        background-color: aliceblue;
+        border-color: darkgreen;
+        padding:px;
+        margin: 90px 90px;
+        text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="address-box">
+    <h2>Delivery Address</h2>
+    <p>Please provide your delivery details to complete your order.</p>
+
+    <form>
+      <input type="text" placeholder="Full Name" required><br><br>
+      <input type="tel" placeholder="Phone Number" required><br><br>
+      <textarea placeholder="Street Address (House No, Street, Area)" required></textarea><br><br>
+      <input type="text" placeholder="City" required><br><br>
+      <input type="text" placeholder="State" required><br><br>
+      <input type="text" placeholder="Pin Code" required><br><br>
+      <input type="text" placeholder="Nearby Landmark (Optional)"><br><br>
+      
+      <button type="submit">Save Address</button>
+      <p>Back to home <a href="./food.html">HOME</a></p>
+    </form>
+  </div>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Foodie Registration</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #149fc9, #ff9b6a);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .register-box {
+        border-style: solid;
+        padding: 50px;
+        background-color: aliceblue;
+        border-radius: 80px;
+        border-color: darkgreen;
+
+    }
+  </style>
+</head>
+<body>
+  <div class="register-box">
+    <h2>Register to Foodie</h2>
+    <form>
+      <input type="text" placeholder="Full Name" required><br><br>
+      <input type="email" placeholder="Email Address" required><br><br>
+      <input type="tel" placeholder="Phone Number" required><br><br>
+      <input type="password" placeholder="Password" required><br><br>
+      <input type="password" placeholder="Confirm Password" required><br><br>
+      <select required>
+        <option value="">Select Favorite Cuisine</option>
+        <option value="indian">Indian</option>
+        <option value="italian">Italian</option>
+        <option value="chinese">Chinese</option>
+        <option value="mexican">Mexican</option>
+      </select><br><br>      
+      <button type="submit">Register</button>
+    </form>
+    <p>Already have an account? <a href="./login.html">Login</a></p>
+    <p>Back to home <a href="./food.html">HOME</a></p>
+  </div>
+</body>
+</html>
